@@ -1,7 +1,9 @@
-# Julia Binder demo
+# Julia k-NN tutorial
 
-This is a demo of Julia functionality for the Binder project. Simply
-go to the URL below and it will launch an interactive Julia environment:
+Your task is to implement a simple k-nearest neighbors (k-NN) classifier for the Iris data set.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/demo-julia/master?filepath=demo.ipynb)
+## Outline:
 
+- Read the Iris data and split it into a training and a test set **-- done**
+- Compute the euclidean distance between examples
+- Implement a k-NN classifier
